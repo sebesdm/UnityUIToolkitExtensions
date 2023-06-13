@@ -1,0 +1,167 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/CustomUIToolkitElements/CustomElements/TableViewStyles.uss?fileID=7433441132597879392&amp;guid=c59bb863e8e92cf44831a9d0d0bb963e&amp;type=3#TableViewStyles" />
+    <ui:VisualElement name="TableInfoContainer" class="table-info-container" style="-unity-font-definition: none;">
+        <CoupleHunerdGames.UnityUIToolkitExtensions.GradientElement name="TitleContainer" class="title title-gradient">
+            <ui:Label text="TABLE HEADER" display-tooltip-when-elided="true" name="Title" />
+        </CoupleHunerdGames.UnityUIToolkitExtensions.GradientElement>
+        <ui:VisualElement name="TableContainer" class="table">
+            <CoupleHunerdGames.UnityUIToolkitExtensions.TableElement Row-Odd-Background-Color="#000000FF" Row-Even-Background-Color="#2B2B2BFF" Row-Even-Background-Hover-Color="#FF000000" Row-Odd-Background-Hover-Color="#242424FF" Header-Font-Size="10" name="TableView" Value-Font-Size="20" tabindex="0" row-even-background-color="#C8252500" namez="10" view-data-key="my-table-1" class="table">
+                <CoupleHunerdGames.UnityUIToolkitExtensions.RowElement name="RowView" class="header-row row">
+                    <ui:VisualElement name="TableCell" class="table-cell" style="width: 100px; align-items: flex-end; justify-content: space-around; flex-direction: column;">
+                        <ui:Label text="STATUS&#10;" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="TableCell" class="table-cell" style="width: 125px;">
+                        <ui:Label text="DESCRIPTION" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="TableCell" class="table-cell" style="width: 75px;">
+                        <ui:Label text="VALUE" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                        <ui:Label text="DATE STARTED" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                        <ui:Label text="DATE COMPLETED" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                </CoupleHunerdGames.UnityUIToolkitExtensions.RowElement>
+                <ui:ScrollView>
+                    <CoupleHunerdGames.UnityUIToolkitExtensions.RowElement name="RowView" class="row odd-row">
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 100px;">
+                            <ui:Label text="STATUS&#10;" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 125px;">
+                            <ui:Label text="DESCRIPTION" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 75px;">
+                            <ui:Label text="VALUE" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE STARTED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE COMPLETED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </CoupleHunerdGames.UnityUIToolkitExtensions.RowElement>
+                    <CoupleHunerdGames.UnityUIToolkitExtensions.RowElement name="RowView" class="row even-row">
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 100px; align-items: flex-end;">
+                            <ui:Label text="STATUS&#10;" display-tooltip-when-elided="true" style="justify-content: flex-start;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 125px;">
+                            <ui:Label text="DESCRIPTION" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 75px;">
+                            <ui:Label text="VALUE" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE STARTED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE COMPLETED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </CoupleHunerdGames.UnityUIToolkitExtensions.RowElement>
+                    <CoupleHunerdGames.UnityUIToolkitExtensions.RowElement name="RowView" class="row odd-row">
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 100px;">
+                            <ui:Label text="STATUS&#10;" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 125px;">
+                            <ui:Label text="DESCRIPTION" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 75px;">
+                            <ui:Label text="VALUE" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE STARTED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE COMPLETED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </CoupleHunerdGames.UnityUIToolkitExtensions.RowElement>
+                    <CoupleHunerdGames.UnityUIToolkitExtensions.RowElement name="RowView" class="row even-row">
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 100px;">
+                            <ui:Label text="STATUS&#10;" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 125px;">
+                            <ui:Label text="DESCRIPTION" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 75px;">
+                            <ui:Label text="VALUE" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE STARTED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE COMPLETED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </CoupleHunerdGames.UnityUIToolkitExtensions.RowElement>
+                    <CoupleHunerdGames.UnityUIToolkitExtensions.RowElement name="RowView" class="row odd-row">
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 100px;">
+                            <ui:Label text="STATUS&#10;" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 125px;">
+                            <ui:Label text="DESCRIPTION" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 75px;">
+                            <ui:Label text="VALUE" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE STARTED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE COMPLETED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </CoupleHunerdGames.UnityUIToolkitExtensions.RowElement>
+                    <CoupleHunerdGames.UnityUIToolkitExtensions.RowElement name="RowView" class="row even-row">
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 100px;">
+                            <ui:Label text="STATUS&#10;" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 125px;">
+                            <ui:Label text="DESCRIPTION" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 75px;">
+                            <ui:Label text="VALUE" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE STARTED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE COMPLETED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </CoupleHunerdGames.UnityUIToolkitExtensions.RowElement>
+                    <CoupleHunerdGames.UnityUIToolkitExtensions.RowElement name="RowView" class="row odd-row">
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 100px;">
+                            <ui:Label text="STATUS&#10;" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 125px;">
+                            <ui:Label text="DESCRIPTION" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 75px;">
+                            <ui:Label text="VALUE" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE STARTED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE COMPLETED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </CoupleHunerdGames.UnityUIToolkitExtensions.RowElement>
+                    <CoupleHunerdGames.UnityUIToolkitExtensions.RowElement name="RowView" class="row even-row final-row">
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 100px;">
+                            <ui:Label text="STATUS&#10;" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 125px;">
+                            <ui:Label text="DESCRIPTION" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 75px;">
+                            <ui:Label text="VALUE" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px;">
+                            <ui:Label text="DATE STARTED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TableCell" class="table-cell" style="width: 175px; align-items: center; -unity-text-align: upper-left;">
+                            <ui:Label text="DATE COMPLETED" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </CoupleHunerdGames.UnityUIToolkitExtensions.RowElement>
+                </ui:ScrollView>
+            </CoupleHunerdGames.UnityUIToolkitExtensions.TableElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

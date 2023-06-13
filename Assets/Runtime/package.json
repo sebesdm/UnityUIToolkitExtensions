@@ -1,0 +1,7 @@
+{
+    "name": "com.couplehunerdgames.unityuitoolkitextensions",
+    "version": "1.0.0",
+    "displayName": "Unity UI Toolkit Extensions",
+    "description": "Additional UI Toolkit Elements and Features.\n\nCustom Elements:\n- GradientElement\n- TableElement\n- RowElement\n\nElement Templates:\n- Table Info Container\n\nTo include element templates in the UI Builder, the \"Packages\\Unity UI Toolkit Extensions\\CustomElementTemplates\" directory must be copied to your Assets folder.\n\nIn order for tables to be formatted correctly, a GameObject with the TableElementProcessor component must be added.  Sample data can be generated for a table by adding the SampleTableGenerator component to a GameObject in the scene.\n\nKnown Issues:\n- Tables do not display correctly when a document is hidden and displayed",
+    "unity": "2022.2"
+}

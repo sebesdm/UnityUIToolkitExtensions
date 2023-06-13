@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="TableInfoContainer" src="project://database/Assets/CustomUIToolkitExtensions/CustomElements/TableInfoContainer.uxml?fileID=9197481963319205126&amp;guid=eb8a5475c8d5b624d99062be37545b86&amp;type=3#TableInfoContainer" />
+    <Style src="project://database/Assets/CustomUIToolkitExtensions/CustomElements/TableViewStyles.uss?fileID=7433441132597879392&amp;guid=c59bb863e8e92cf44831a9d0d0bb963e&amp;type=3#TableViewStyles" />
+    <Style src="project://database/Assets/UIWorkbench_TableElementUSS.uss?fileID=7433441132597879392&amp;guid=73f23fe9b347d9543a387512d7bb9643&amp;type=3#UIWorkbench_TableElementUSS" />
+    <ui:VisualElement style="background-color: rgb(63, 63, 63); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-font: url(&apos;project://database/Assets/Resources/Roboto-Regular.ttf?fileID=12800000&amp;guid=099406bbc3d2f724dab2ffa0bb625348&amp;type=3#Roboto-Regular&apos;); -unity-font-definition: none; background-image: none; -unity-background-image-tint-color: rgb(56, 56, 56); -unity-background-scale-mode: stretch-to-fill; -unity-slice-top: 0; -unity-slice-bottom: 1; flex-direction: row; height: 1033px;">
+        <ui:VisualElement>
+            <ui:Instance template="TableInfoContainer" name="TableInfoContainer" class="table-1" />
+            <ui:Instance template="TableInfoContainer" name="TableInfoContainer" class="table-2" />
+            <ui:Instance template="TableInfoContainer" name="TableInfoContainer" class="table-3" />
+        </ui:VisualElement>
+        <ui:VisualElement>
+            <ui:Instance template="TableInfoContainer" name="TableInfoContainer" class="table-4" />
+            <ui:Instance template="TableInfoContainer" name="TableInfoContainer" class="table-5" />
+            <ui:Instance template="TableInfoContainer" name="TableInfoContainer" class="table-6" />
+        </ui:VisualElement>
+        <ui:VisualElement>
+            <ui:Instance template="TableInfoContainer" name="TableInfoContainer" class="table-7" />
+            <ui:VisualElement style="flex-direction: row;">
+                <ui:Instance template="TableInfoContainer" name="TableInfoContainer" class="table-9" />
+                <ui:Instance template="TableInfoContainer" name="TableInfoContainer" class="table-8" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

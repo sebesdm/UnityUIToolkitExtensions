@@ -1,0 +1,109 @@
+.table-info-container {
+    height: 250px;
+    width: 700px;
+    background-color: rgb(40, 40, 40);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 10px;
+}
+
+.table {
+    color: white;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.title-gradient {
+    --gradient-from: rgb(40, 40, 40);
+    --gradient-to: rgba(125, 125, 125, 0);
+    --gradient-direction: horizontal;
+}
+
+.title {
+    min-height: 36px;
+    font-size: 19px;
+    -unity-text-align: middle-left;
+    margin-left: 15px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-font: resource('Roboto-Regular');
+}
+
+.row {
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: -3px;
+    padding-bottom: -3px;
+}
+
+.header-row {
+    background-color: rgb(103, 36, 36);
+    font-size: 14px;
+    min-height: 32px;
+    padding-right: 22px;
+}
+
+.odd-row {
+    background-color: rgb(40, 40, 40);
+}
+
+.odd-row:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.even-row {
+    background-color: rgb(20, 20, 20);
+}
+
+.even-row:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.table-cell {
+    align-items: flex-end;
+    -unity-font: resource('Roboto-Regular');
+}
+
+.table-info-container .unity-scroller--vertical {
+    opacity: 1;
+    background-color: rgb(0, 0, 0);
+    width: 13px;
+}
+
+.table-info-container .unity-scroller--vertical .unity-base-slider__tracker {
+    background-color: rgb(50, 50, 50);
+    border-color: rgb(0, 0, 0);
+    width: 13px;
+}
+
+.table-info-container .unity-scroller--vertical .unity-base-slider__input {
+    background-color: rgb(0, 0, 0);
+    width: 13px;
+}
+
+.table-info-container .unity-scroller--vertical .unity-scroller__low-button {
+    display: none;
+    background-color: rgb(150, 150, 150);
+    width: 13px;
+    border-color: rgb(0, 0, 0);
+}
+
+.table-info-container .unity-scroller--vertical .unity-scroller__high-button {
+    display: none;
+    background-color: rgb(150, 150, 150);
+    width: 13px;
+    border-color: rgb(0, 0, 0);
+}
+
+.table-info-container .unity-scroller--vertical .unity-base-slider__dragger {
+    background-color: rgb(150, 150, 150);
+    width: 7px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+.table-info-container .unity-scroller--vertical .unity-base-slider--vertical {
+    margin-bottom: 0;
+    margin-top: 0;
+}
