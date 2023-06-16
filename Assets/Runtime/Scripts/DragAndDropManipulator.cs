@@ -10,7 +10,7 @@ namespace CoupleHunerdGames.UnityUIToolkitExtensions
         public event DraggableOverDraggableTargetEventHandler OnDraggableOverDraggableTarget;
         public event DraggableDroppedInDraggableTargetEventHandler OnDraggableDroppedInDraggableTarget;
 
-        public DragAndDropManipulator(VisualElement documentRoot, VisualElement target, string draggableTargetClass)
+        public DragAndDropManipulator(VisualElement documentRoot, DraggableElement target, string draggableTargetClass)
         {
             this.target = target;
             root = documentRoot;
@@ -33,6 +33,7 @@ namespace CoupleHunerdGames.UnityUIToolkitExtensions
             target.UnregisterCallback<PointerCaptureOutEvent>(PointerCaptureOutHandler);
         }
 
+        private DraggableElement draggableTarget => (DraggableElement)target;
         private Vector2 targetStartLayoutPosition { get; set; }
         private Vector2 targetStartTransformPosition { get; set; }
         private Vector3 pointerStartPosition { get; set; }
@@ -46,6 +47,7 @@ namespace CoupleHunerdGames.UnityUIToolkitExtensions
             pointerStartPosition = evt.position;
             target.CapturePointer(evt.pointerId);
             enabled = true;
+            draggableTarget.StartDrag();
         }
 
         private Vector2 lastMovePos;
@@ -83,10 +85,13 @@ namespace CoupleHunerdGames.UnityUIToolkitExtensions
             if (closestOverlappingSlot != null)
             {
                 target.transform.position = closestOverlappingSlot.layout.position - targetStartLayoutPosition;
+                draggableTarget.DropOnTarget(closestOverlappingSlot);
+                closestOverlappingSlot.AddElement(draggableTarget);
                 OnDraggableDroppedInDraggableTarget?.Invoke(new DragEventArgs(target, closestOverlappingSlot));
             }
             else
             {
+                draggableTarget.CancelDrag();
                 target.transform.position = targetStartTransformPosition;
             }
 

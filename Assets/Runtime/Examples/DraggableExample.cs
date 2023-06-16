@@ -10,10 +10,10 @@ namespace CoupleHunerdGames.Examples
         {
             VisualElement documentRoot = GameObject.Find("UIDocument").GetComponent<UIDocument>().rootVisualElement;
 
-            VisualElement draggableGreen = documentRoot.Q<VisualElement>(name: "DraggableGreen");
+            DraggableElement draggableGreen = documentRoot.Q<DraggableElement>(name: "DraggableGreen");
             manipulatorGreen = new DragAndDropManipulator(documentRoot, draggableGreen, draggableTargetClass: "green-draggable-target-type");
 
-            VisualElement draggableRed = documentRoot.Q<VisualElement>(name: "DraggableRed");
+            DraggableElement draggableRed = documentRoot.Q<DraggableElement>(name: "DraggableRed");
             manipulatorRed = new DragAndDropManipulator(documentRoot, draggableRed, draggableTargetClass: "red-draggable-target-type");
         }
 

@@ -1,8 +1,9 @@
+using System;
 using UnityEngine.UIElements;
 
 namespace CoupleHunerdGames.UnityUIToolkitExtensions
 {
-    public class DragEventArgs
+    public class DragEventArgs : EventArgs
     {
         public DragEventArgs(VisualElement draggableElement, DraggableTargetElement draggableTargetElement)
         {
