@@ -3,7 +3,7 @@ using UnityEngine.UIElements;
 
 namespace CoupleHunerdGames.UnityUIToolkitExtensions
 {
-    class RowElement : VisualElement
+    public class RowElement : VisualElement
     {
         public void SetValues(List<string> values)
         {

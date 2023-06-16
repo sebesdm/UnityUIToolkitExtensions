@@ -1,0 +1,16 @@
+{
+    "name": "CoupleHunerdGames.Examples",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3001c169876e36b4bbd66ee77a11a232"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

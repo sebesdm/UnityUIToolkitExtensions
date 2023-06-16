@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIWorkbench_DragAndDrop.uss?fileID=7433441132597879392&amp;guid=fed8b426af8216745ba2844f88678fd4&amp;type=3#UIWorkbench_DragAndDrop" />
+    <ui:VisualElement name="MainContainer" style="flex-grow: 1; background-color: rgb(154, 154, 154);">
+        <CoupleHunerdGames.UnityUIToolkitExtensions.DraggableTargetElement name="DraggableTargetGreen1" class="green-draggable-target-type" style="width: 200px; height: 200px; max-height: 200px; min-height: 200px; max-width: 200px; position: absolute; background-color: rgb(42, 113, 41); top: 94px; left: 745px;" />
+        <CoupleHunerdGames.UnityUIToolkitExtensions.DraggableTargetElement name="DraggableTargetGreen2" class="green-draggable-target-type" style="width: 200px; height: 200px; max-height: 200px; min-height: 200px; max-width: 200px; position: absolute; background-color: rgb(42, 113, 41); top: 470px; left: 693px;" />
+        <CoupleHunerdGames.UnityUIToolkitExtensions.DraggableTargetElement name="DraggableTargetRed1" class="red-draggable-target-type" style="background-color: rgb(156, 38, 38); width: 200px; height: 200px; max-height: 200px; min-height: 200px; max-width: 200px; min-width: 200px; position: absolute; top: 474px; left: 228px;" />
+        <CoupleHunerdGames.UnityUIToolkitExtensions.DraggableTargetElement name="DraggableTargetRed2" class="red-draggable-target-type" style="background-color: rgb(156, 38, 38); width: 200px; height: 200px; max-height: 200px; min-height: 200px; max-width: 200px; min-width: 200px; position: absolute; top: 76px; left: 407px;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(42, 47, 106); width: 200px; height: 400px; max-height: 400px; max-width: 200px; min-width: 200px; min-height: 200px;">
+            <ui:VisualElement name="DraggableGreen" class="draggable" style="flex-grow: 1; background-color: rgb(0, 250, 19); width: 100px; height: 100px; max-width: 100px; min-width: 100px; max-height: 100px; min-height: 100px; position: absolute; left: 45px; top: 44px;" />
+            <ui:VisualElement name="DraggableRed" class="draggable" style="flex-grow: 1; background-color: rgb(250, 0, 10); width: 100px; height: 100px; max-width: 100px; min-width: 100px; max-height: 100px; min-height: 100px; position: absolute; left: 44px; top: 223px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

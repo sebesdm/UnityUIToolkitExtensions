@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 
 namespace CoupleHunerdGames.UnityUIToolkitExtensions
 {
-    class TableElement : VisualElement
+    public class TableElement : VisualElement
     {
         public TableElement()
         {

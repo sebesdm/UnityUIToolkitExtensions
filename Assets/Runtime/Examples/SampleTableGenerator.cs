@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using CoupleHunerdGames.UnityUIToolkitExtensions;
 
-namespace CoupleHunerdGames.UnityUIToolkitExtensions
+namespace CoupleHunerdGames.Examples
 {
     public class SampleTableGenerator : MonoBehaviour
     {
